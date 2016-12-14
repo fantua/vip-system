@@ -1,0 +1,75 @@
+body{
+    background-color:black;
+    color:black;
+} 
+
+table{
+    border-style:solid;
+    border-color:darkgray;
+    border-width:1px;
+    color:black;
+    font-weight:bold;
+}
+
+td,th{
+    border-style:solid;
+    border-color:darkgray;
+    border-width:1px;
+    color:black;
+    font-weight:bold;
+    padding:5px;
+}
+
+.cursive td,th{
+        border-width:1px;
+        border-style:dotted;
+        border-color:#212121;
+    }
+    
+.main{
+    width:99%;
+    margin:0px  auto;
+}
+
+.main td.header{
+    color:black;
+    font-weight:bold;
+    font-size:48px;
+    text-align:center;
+    border-style:solid;
+    border-color:darkgray;
+    border-width:0px 0px 1px 0px;
+}
+
+.main td.leftMenu{
+    width:200px;
+}
+
+.main td.leftMenu div.menu{
+    width:98%;
+    margin:0px auto;
+
+}
+
+.main td.leftMenu div.menu a{
+    text-decoration:none;
+    display:block;
+    border-style:solid;
+    border-color:#2F2F2F;
+    border-width:1px;
+    background-color:white;
+    margin:1px;
+    color:black;
+    font-weight:bold;
+    padding:2px;
+}
+
+.main td.leftMenu div.menu a:hover{
+    text-decoration:none;
+    display:block;
+    border-style:solid;
+    border-color:#2F2F2F;
+    background-color:#3B3B3B;
+    border-width:1px;
+
+}
